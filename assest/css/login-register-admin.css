@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Yekan;
+    src: url('../font/Yekan-Bold.eot');
+    src: url('../font/Yekan-Bold.woff2') format('woff2'),
+         url('../font/Yekan-Bold.woff') format('woff'),
+         url('../font/Yekan-Bold.otf') format('opentype');
+    font-weight: normal;
+}
+.wrapper .pannel-setting {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 1px 7px -3px rgba(0,0,0,.1);
+    font-family: Yekan !important;
+}
+.wrapper .pannel-setting h1{
+    font-family: Yekan !important;
+    font-size: 25px;
+    color: #545cfa;
+}
+.wrapper .pannel-setting input[type="text"]:not(.clr-field input),.wrapper .pannel-setting textarea {
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.wrapper .pannel-setting input[type="text"]:not(.clr-field input).invalid-inp{
+  border: 1px solid #545cfa;
+}
+.wrapper .pannel-setting textarea {
+  height: 150px;
+  direction: ltr;
+}
+.button-login-panel {
+    border: none;
+    padding: 5px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #545cfa;
+    box-shadow: rgba(84, 92, 250,0.1) 0px 20px 25px -5px, rgba(84, 92, 250,0.1) 0px 10px 10px -5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
+  #clr-color-value {
+    direction: ltr;
+  }
+  .clr-field input {
+    text-align: left;
+    direction: ltr;
+    border: none;
+    background-color: #eee;
+  }
+  .clr-field {
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .clr-field button{
+      width: 40px !important;
+  }
+  .clr-alpha, .clr-hue{
+    direction: ltr;
+  }
+  #wrl-error{
+    background-color: #6b72f4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px 0;
+    width: auto;
+    display: block;
+  }
